@@ -1,0 +1,29 @@
+backend:
+  name: git-gateway
+  branch: master # Branch to update (optional; defaults to master)
+
+  media_folder: "static/uploads"
+  public_folder: "uploads"
+
+  collections:
+    - name: "blog"
+      label: "Blog"
+      folder: "src/blog"
+      create: true
+      slug: "{{date}}-{{slug}}"
+      fields:
+        - { label: "Title", name: "title", widget: "string" }
+        - { label: "Publish Date", name: "date", widget: "date" }
+        - { label: "Draft", name: "draft", widget: "boolean", default: true }
+        - {
+            label: "Categories",
+            name: "categories",
+            widget: "string",
+            required: true,
+          }
+        - { label: "Tags", name: "tags", widget: "list", required: false }
+        - { label: "Header Image", name: image, widget: image, required: false }
+        - { label: Commenting, name: comments, widget: boolean, default: true }
+        - { label: Sharing, name: share, widget: boolean, default: true }
+        - { label: Type, name: type, widget: hidden, default: "post" }
+        - { label: "Body", name: "body", widget: "markdown" }
