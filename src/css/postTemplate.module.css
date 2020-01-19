@@ -52,6 +52,12 @@
   .content p{
     font-size:10px;
   }
-
+  .template {
+    width: 100vw;
+    margin: auto;
+    max-width: 750px;
+    padding: 2rem;
+    background: var(--mainWhite);
+  }
 
 }
