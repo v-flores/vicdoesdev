@@ -1,7 +1,7 @@
 .template {
-  
-  margin: 4rem auto;
-
+  width: 80vw;
+  margin: 2rem auto;
+  max-width: 750px;
   padding: 2rem;
   background: var(--mainWhite);
 }
@@ -46,4 +46,12 @@
 .content p {
   line-height: 1.5;
   margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 550 px) {
+  .content p{
+    font-size:10px;
+  }
+
+
 }
