@@ -102,6 +102,15 @@ function displayCards() {
                 git = 'https://github.com/v-flores/faqaccordion';
                 live = 'https://v-flores.github.io/faqaccordion/';
                 break;
+                // Proejct 5
+                case 'caffepietro.jpg':
+                titlees = 'Caffe Pietro';
+                titleen = 'Caffe Pietro';
+                desces = 'This is a mock website of a favorite local coffee shops This was created in GatsbyJS and React. The site is connected with an API that I created on Contenful in order to showcase the menu items. The Contact Us form is set up via Formspree.';
+                descen = 'This is a mock website of a favorite local coffeeshop. This was created in GatsbyJS and React. The site is connected with an API that I created on Contenful in order to showcase the menu items. The Contact Us form is set up via Formspree.';
+                git = 'https://github.com/v-flores/caffep';
+                live = 'https://caffepietro.netlify.com';
+                break;
             default:
                 titlees = '';
                 titleen = '';
