@@ -6,7 +6,7 @@ const PostList = ({ posts }) => {
   return (
     <section className={styles.posts}>
       <h1>Blog</h1>
-      <i>My journey in the the web development world alongside tutorials and other new tech findings.</i>
+      <h3>My journey in the web development world alongside tutorials and other new tech findings.</h3>
       <br>
       </br>
       <div className={styles.center}>
