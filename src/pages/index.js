@@ -71,6 +71,7 @@ console.log(state);
                 <meta charSet="utf-8" />
                 <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
                 <title>Victor F - Front End Web Developer</title>
+                <br></br>
                 <link rel="canonical" href="http://www.victordoes.dev" />
             </Helmet>
          <hr id='break' className={ state.theme === 'dark' ? 'break-line-dark' : 'break-line'}/>

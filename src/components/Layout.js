@@ -174,8 +174,9 @@ console.log(data.allFile);
                         steps={[
                         '',2000]}
                         wrapper="b" />
-                        <br></br>          
+                        <br></br>      
                         </p>
+                        
                     {webData.links.map((link)=> {
 
                             return(<Link to={link.path}><p className='nav'>{link.text}</p> </Link>)
