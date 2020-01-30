@@ -94,13 +94,13 @@ function displayCards() {
                 live = 'https://v-flores.github.io/obscure_web';
                 break;
                  // Project 2gi
-                case 'coffeefaq.jpg':
-                titlees = 'Coffee FAQ';
-                titleen = 'Coffee FAQ';
-                desces = 'This FAQ contains a custom accordion component created with mere vanilla JavaScript.';
-                descen = 'This FAQ contains a custom accordion component created with mere vanilla JavaScript.';
-                git = 'https://github.com/v-flores/faqaccordion';
-                live = 'https://v-flores.github.io/faqaccordion/';
+                case 'currencyexchange.png':
+                titlees = 'Exchange Rate Calculator';
+                titleen = 'Exchange Rate Calculator';
+                desces = 'Exchange Rate Calculator calculates the rates of many common currencies. It fetches data from the ExchangeRate-API with vanilla Javascript.';
+                descen = 'Exchange Rate Calculator calculates the rates of many common currencies. It fetches data from the ExchangeRate-API with vanilla Javascript.';
+                git = 'https://github.com/v-flores/JS20/tree/master/exchange-rate';
+                live = 'https://v-flores.github.io/JS20/exchange-rate/index.html';
                 break;
                 // Proejct 5
                 case 'caffepietro.jpg':
