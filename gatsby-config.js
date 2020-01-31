@@ -8,13 +8,15 @@ const path = require('path');
 
 module.exports = {
   siteMetadata: {
+    title: "Severus Snape",
+    titleTemplate: "VictorDoes.Dev - %s ",
     description:
-      "This is the official Website for Front End Web Developer Victor F",
-
+      "This is the official website of the Chicago based Web Developer Victor Flores .",
+    url: "https://www.victordoes.dev", // No trailing slash allowed!
+    image: "/uploads/laptop.jpg", // Path to your image you placed in the 'static' folder
   },
   pathPrefix: '/gatsby-cv-site',
-  plugins: [ 
-    
+  plugins: [
     {
       resolve: 'gatsby-plugin-html-attributes',
       options: {
