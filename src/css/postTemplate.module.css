@@ -49,13 +49,12 @@
 }
 
 @media screen and (width: 550 px) {
-  .content p{
-    font-size:10px;
+  .content p {
+    font-size: 10px;
   }
   .template {
     width: 100vw;
     margin: auto;
     background: var(--mainWhite);
   }
-
 }
