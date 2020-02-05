@@ -197,11 +197,16 @@ main {
   padding-left: 5px;
 }
 .code {
-  background: #f15025;
+  font-family: "Source Code Pro";
+  background: #000000;
+  color: #fafafa;
+  font-size: 16px;
+  padding: 0;
+  padding: 10px;
   display: inline-block;
   padding: 1rem;
   font-size: 1.2rem;
-  color: var(--mainwhite);
+  color: deeppink;
   margin: 2rem 0;
 }
 .right-bar {
@@ -288,7 +293,7 @@ main {
   .big {
     font-size: 0.5rem;
   }
-  .post-image span{
+  .post-image span {
     display: block;
     max-width: 100% !important;
     margin: 2rem;
