@@ -20,7 +20,7 @@ const FunctionalComponent = () => {
   return (
     <h1>
       {" "}
-      Hello, I'm a functional component! I can take props as an arguement.
+      Hello, I'm a functional component!
     </h1>
   )
 }
@@ -36,8 +36,8 @@ class ClassComponent extends Component {
     return (
       <div>
         {" "}
-        Hello, I'm a Class Based Component. I must have a render method to
-        return JSX.{" "}
+        Hello, I'm a Class Based Component.
+        {" "}
       </div>
     )
   }
@@ -53,14 +53,14 @@ One thing that really tripped me was commenting code out. React thinks your stan
 **_This doesn't work_**
 
 ```javascript
-<!--  This syntax WILL NOT work in React -->
+<!--  This syntax WILL NOT work -->
 ```
 
 **_This works_**
 
 ```javascript
 {
-  /* This syntax WILL work in React */
+  /* This syntax WILL work */
 }
 ```
 
